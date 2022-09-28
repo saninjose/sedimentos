@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="UTF-8">
+  <title>Sedimentos en dispersión 46sna</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="logos/favicon.ico">
+
+</head>
+<body>
+
+    <div id="crystal1" class="crystal">Paula Leuro</div>
+
+    <div id="crystal2" class="crystal">José Sanín</div>
+
+    <div id="crystal3" class="crystal"></div>
+
+    <div id="crystal4" class="crystal"></div>
+
+    <div id="crystal5" class="crystal"></div>
+
+
+<!--Botón desplegable para menú-->
+  <button type="button" class="collapsible"><!--<img src="imagenes/sedimento.svg" height="100px" width="32px">--><p id="boton"><i>publicaciones</i></p><p id="boton2">&nbsp</p></button>
+  <div class="content0">
+  <p><a href="index.html"><font style="font-family: Numberplate; color: black;">SEDIMENTOS EN DISPERSIÓN<br>46 SNA</font></a></p><p><a href="Enfoque curatorial.html">
+
+    <a href="comunidadesespectrales.html"><font style="font-family: Numberplate; letter-spacing: 0.5px;">Comunidades Espectrales<br><font style="font-size: 12pt; color: gray;">Catalina Vargas / Cajón de Sastre</font></font></a>
+    <br><br>
+    <a href="rebis.html"><font style="font-family: Numberplate; letter-spacing: 0.5px;">REBIS<br><font style="font-size: 12pt; color: gray;">María Isabel Rueda + CEPA (Cooperativa Editorial de Proyectos Autónomos)</font></font></a>
+    <br><br>
+    <a href="cartografiamompox.html"><font style="font-family: Numberplate; letter-spacing: 0.5px;">Cartografía Mompox<br><font style="font-size: 12pt; color: gray;">Mónica Naranjo / Nómada ediciones</font></font></a>
+    <br><br>
+    <a href="notodosobreloshipopotamos.html"><font style="font-family: Numberplate; letter-spacing: 0.5px;">No todo sobre los hipopotamos<br><font style="font-size: 12pt; color: gray;">Juan Mejía</font></font></a><br><br>
+    <a href="dinosauriosblancos.html"><font style="font-family: Numberplate; letter-spacing: 0.5px;">Incidentes de un viaje<br>(Dinosaurios blancos)<br><font style="font-size: 12pt; color: gray;">Mónica Restrepo</font></font></a>
+    <br><br>
+    <a href="creditos.html"><font style="font-family: Numberplate; letter-spacing: 0.5px;" color="black">Créditos</font></a>  
+  </div>  
+  <!--fin del Botón Menú-->
+
+
+<div class="container0">
+
+    <div id="headizq"><p><a href="index.html"><img src="logos/logo46snav5.svg" style="max-width: 200px;"></a></p></div> 
+  <div id="headder"><p><img src="logos/logo_líneas_una_tintapp.svg" style="max-height: 45px;"></p></div>
+
+
+    <div id="contenido1"><p></p></div>
+
+    <div id="contenido2" onclick="">
+      <p id="creditos"><i>Sedimentos en dispersión</i> es una vertiente editorial de <a href="www.46sna.com" target="_blank"><i>Inaudito Magdalena</i></a>, un proyecto curatorial planteado por Ximena Gama, Yolanda Chois, Jaime Cerón, Paula Leuro, Mónica Torregrosa, Juan David Flórez, Laura Rodríguez y José Sanín como parte del <a href="46sna.com"> 46 Salón Nacional de Artistas</a> en 2021-2022.<br><br>
+      Agradecemos a todos los involucrados por la paciencia ante los obstáculos y el espíritu colaborador para materializar los proyectos incluídos aquí.<br><br>
+      2021-2022 
+
+      </p>
+      
+    </div>
+
+    <div id="contenido3"></div>
+
+    <div id="contenido4"></div>
+
+    <div id="contenido5"></div>
+
+
+</div>
+
+<script type="text/javascript">var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+
+  
+}</script>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
