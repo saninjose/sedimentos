@@ -4,9 +4,17 @@ height: 500px;
 
 .galeria{
         display: grid;
-        grid-template-columns: auto auto; 
+        grid-template-columns: auto auto;
         grid-column-gap: 5px;
     }
+
+.galeriavideo{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 2%;
+        grid-column-gap: 5px;
+    }
+
 
 .imggaleria{
         color: whitesmoke;
@@ -142,10 +150,10 @@ body{  background-image: linear-gradient(
 a{color: unset;
 text-decoration: underline;}
 
-a:hover {color: blue;
+a:hover {color: lightblue;
 text-decoration: underline;}
 
-#contenido2 a { 
+#contenido2 a {
 -webkit-text-fill-color: initial;
 text-decoration: underline;}
 
@@ -179,7 +187,7 @@ button {padding: 0;
 border: none;
 margin-top: 5%;
 }
- 
+
 }
 
 #boton{
@@ -261,6 +269,18 @@ margin-top: 5%;
   display: none;
 }
 
+#boton8{
+  background-image: url(logos/wiiiifiiiiu.svg);
+  background-repeat: no-repeat;
+  margin-top: 15%;
+  height: 200%;
+  width: 32px;
+  font-size: 14pt;
+  text-align: center;
+  display: none;
+  z-index: 99;
+}
+
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
@@ -326,7 +346,7 @@ color: saddlebrown;}
   height: 100vh;
     grid-template-columns: .5fr 1fr 1fr 1fr 1fr .5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headder headder headder"
                          "contenido1 contenido2 contenido2 contenido2 contenido2 askdlkajsd"
                          "contenido3 contenido3 contenido3 contenido4 contenido4 contenido4"
@@ -340,8 +360,8 @@ color: saddlebrown;}
   display:grid;
   height: 100vh;
     grid-template-columns: .1fr 1fr 1fr 1fr 1fr 1fr 1fr .1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq headder headder headder headder"
                          "lkajsdlka contenido1 contenido1 contenido5 contenido5 contenido5 jkhasdjka sldjka"
                          "lkasljdk xcz contenido3 contenido3 contenido3 contenido3 iuehjfjk aslkdaskl"
@@ -357,7 +377,7 @@ color: saddlebrown;}
   height: 100vh;
     grid-template-columns: .1fr .5fr 1fr 1fr 1fr 1fr .5fr .1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq headder headder headder headder"
                          "contenido1 contenido1 contenido1 contenido2 contenido2 contenido2 kljlkajs jkshakjs"
                          "sdkasld sdkasldpx contenido3 contenido3 contenido3 contenido3 nada slkdajlk"
@@ -377,11 +397,11 @@ color: saddlebrown;}
 #headder{
   padding-top: 3%;
   font-size: 24pt;
-  background-color: transparent; 
+  background-color: transparent;
   text-align: right;
   grid-area: headder;
 margin-bottom: -3%;}
-  
+
   #contenido1{
   background-color: transparent;
   grid-area: contenido1;}
@@ -412,7 +432,7 @@ margin-bottom: -3%;}
   height: 100vh;
     grid-template-columns: .1fr 1fr 1fr 1fr 1fr 1fr 1fr .1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq headder headder headder headder"
                          "contenido1 contenido1 contenido1 contenido5 contenido5 contenido5 contenido5 contenido5"
                          "sdkash contenido3 contenido3 contenido3 contenido3 contenido3 contenido3 sdjakl"
@@ -427,7 +447,7 @@ margin-bottom: -3%;}
   height: 100vh;
     grid-template-columns: .1fr .5fr 1fr 1fr 1fr 1fr .5fr .1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq headder headder headder headder"
                          "contenido1 contenido1 contenido1 contenido2 contenido2 contenido2 contenido2 contenido2"
                          "sdkasld sdkasldpx contenido3 contenido3 contenido3 contenido3 nada slkdajlk"
@@ -479,7 +499,7 @@ margin-bottom: -3%;}
   height: 100vh;
     grid-template-columns: .1fr .5fr 1fr 1fr 1fr 1fr .5fr .1fr;;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headder headder headder headder lkjda"
                          "contenido1 contenido2 contenido2 contenido2 contenido2 contenido2 contenido2 laksda"
                          "contenido3 contenido3 contenido3 contenido3 contenido4 contenido4 contenido4 contenido4"
@@ -495,7 +515,7 @@ margin-bottom: -3%;}
   height: 100vh;
     grid-template-columns: .1fr .5fr 1fr 1fr 1fr 1fr .5fr .1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headder headder headder headder lkjda"
                          "contenido1 contenido1 contenido1 contenido1 contenido1 contenido1 contenido1 contenido1"
                          "contenido5 contenido5 contenido5 contenido5 contenido5 contenido5 contenido5 contenido5"
@@ -511,7 +531,7 @@ margin-bottom: -3%;}
   height: 100vh;
     grid-template-columns: .1fr .5fr 1fr 1fr 1fr 1fr .5fr .1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headder headder headder headder lkjda"
                          "contenido1 contenido1 contenido1 contenido2 contenido2 contenido2 contenido2 jkshakjs"
                          "sdkasld contenido3 contenido3 contenido3 contenido3 contenido3 contenido3 slkdajlk"
@@ -567,11 +587,11 @@ margin-top: 5%;
 
 /* estilo del menú cuando está desplegado */
 
-  
+
   #headder{
   padding-top: 5%;
   font-size: 24pt;
-  background-color: transparent; 
+  background-color: transparent;
   text-align: left;
   grid-area: headder;
 margin-bottom: 0%;}
@@ -646,7 +666,7 @@ color: #8B6339;}
 
   .galeria{
         display: grid;
-        grid-template-columns: auto; 
+        grid-template-columns: auto;
     }
 
    .container3{
@@ -657,7 +677,7 @@ color: #8B6339;}
   height: 100vh;
     grid-template-columns: .1fr .5fr 1fr 1fr 1fr 1fr .5fr .1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headder headder headder headder lkjda"
                          "contenido1 contenido1 contenido1 contenido1 contenido1 contenido1 contenido1 contenido1"
                          "kldjla contenido2 contenido2 contenido2 contenido2 contenido2 contenido2 ldalsk"
@@ -777,6 +797,19 @@ color: #8B6339;}
   color: white;
 }
 
+#boton8{
+  background-image: url(logos/wiiiifiiiiu.svg);
+  background-repeat: no-repeat;
+  margin-top: 15%;
+  height: 100%;
+  width: 32px;
+  font-size: 160pt;
+  text-align: center;
+  display: initial;
+  color: white;
+  z-index: 99;
+}
+
 .collapsible {
   background-color: transparent;
   font-family: sans-serif;
@@ -843,7 +876,7 @@ color: black;}
 
 html {
 -webkit-tap-highlight-color: rgba(0,0,0,0);
-  
+
 
 }
 
@@ -880,7 +913,7 @@ height: 300px;}
     #headder{
   padding-top: 0%;
   font-size: 24pt;
-  background-color: transparent; 
+  background-color: transparent;
   text-align: left;
   grid-area: headder;
 margin-bottom: -7%;}
@@ -901,7 +934,7 @@ margin-bottom: -7%;}
   height: 100vh;
     grid-template-columns: .5fr 1fr 1fr 1fr 1fr .5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq headerizq headerizq"
                          "headder headder headder headder headder headder"
                          "contenido2 contenido2 contenido2 contenido2 contenido2 contenido2"
@@ -919,7 +952,7 @@ margin-bottom: -7%;}
   height: 100vh;
     grid-template-columns: .5fr 1fr 1fr 1fr 1fr .5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq headerizq headerizq"
                          "headder headder headder headder headder headder"
                         "contenido1 contenido1 contenido1 contenido1 contenido1 contenido1"
@@ -936,7 +969,7 @@ margin-bottom: -7%;}
   height: 100vh;
     grid-template-columns: .7fr 1fr 1fr .7fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq"
                          "headder headder headder headder"
                          "contenido1 contenido1 contenido1 contenido1"
@@ -969,7 +1002,7 @@ height: 250px;}
   height: 100vh;
     grid-template-columns: .5fr 1fr 1fr .5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas:  
+    grid-template-areas:
                          "headerizq headerizq headerizq headerizq"
                          "headder headder headder headder"
                          "contenido1 contenido1 contenido1 contenido1"
@@ -1016,4 +1049,3 @@ color: #8B6339;}
   }
 
 }
-
